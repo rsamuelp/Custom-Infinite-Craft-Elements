@@ -155,3 +155,4 @@ class yi {
             !this.dead && this.hasOwnership && this.sendMyEquippedSkinData()
         }
     }
+}
