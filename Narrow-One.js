@@ -1,4 +1,3 @@
-/*Subscribe to Realsamuelp*/
 const Ot = new Map;
 Ot.set("movementSpeed", {
     icon: "static/img/menuUI/shop/classIcons/movementSpeed.svg",
@@ -29,7 +28,7 @@ Ot.set("shootingFocus", {
     uiName: "Focus",
     defaultValue: 20,
     min: 20,
-    max: 10,
+    max: 20,
     tooltipCategories: ["bow"]
 }),
 Ot.set("bowAttackStrength", {
@@ -43,8 +42,8 @@ Ot.set("bowAttackStrength", {
 Ot.set("arrowLoadingSpeed", {
     icon: "static/img/menuUI/shop/classIcons/arrowLoadingSpeed.svg",
     uiName: "Loading Speed",
-    defaultValue: 0,
-    min: 0,
+    defaultValue: 5,
+    min: 5,
     max: 5,
     tooltipCategories: ["bow"]
 }),
@@ -59,9 +58,9 @@ Ot.set("arrowFlySpeed", {
 Ot.set("arrowEnemyStun", {
     icon: "static/img/menuUI/shop/classIcons/arrowEnemyStun.svg",
     uiName: "Stun Enemy",
-    defaultValue: 0,
-    min: 0,
-    max: 0,
+    defaultValue: 0.1,
+    min: 0.1,
+    max: 0.1,
     tooltipCategories: ["arrow"]
 }),
 Ot.set("meleeAttackStrength", {
@@ -83,8 +82,8 @@ Ot.set("meleeAttackSpeed", {
 Ot.set("meleeAttackReach", {
     icon: "static/img/menuUI/shop/classIcons/meleeAttackReach.svg",
     uiName: "Reach",
-    defaultValue: 0,
-    min: 0,
+    defaultValue: 5,
+    min: 5,
     max: 5,
     tooltipCategories: ["melee"]
 }),
