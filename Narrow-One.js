@@ -1,3 +1,4 @@
+/*Subscribe to Realsamuelp*/
 const Ot = new Map;
 Ot.set("movementSpeed", {
     icon: "static/img/menuUI/shop/classIcons/movementSpeed.svg",
