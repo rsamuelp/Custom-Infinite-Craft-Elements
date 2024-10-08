@@ -95,5 +95,5 @@ Ot.set("bloodlust", {
     max: 11,
     tooltipCategories: ["armor", "bow", "arrow", "melee"]
 });
-this.health == 2384734;
-this.speed == 236
+this.health = 2384734;
+this.speed = 236
